@@ -2,6 +2,9 @@
 
 This repository contains a Jupyter notebook that explores the decomposition of **multi-controlled unitary (MCU)** quantum gates. Specifically we look at an arbitary 2x2 unitary and restrict ourselves to the use of single-qubit and cnot gates only.
 
+Inputs: Arbitrary 2x2 unitary and a value n for number of control qubits
+Outputs: Decomposed MCU gate
+
 ## Introduction
 
 Multi-controlled unitary gates are a powerful class of operations in quantum computing. They apply a specific unitary operation to the target qubit only when all control qubits are in the 1-state. However, these gates are not directly implementable on quantum hardware. They require decomposition into simpler native quantum gates, which is the aim of this project.
